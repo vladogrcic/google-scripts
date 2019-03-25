@@ -143,7 +143,7 @@ function specialOnEdit(e){
   SpreadsheetApp.getActiveSpreadsheet().toast("Jebi se u kurac! Najebo si!");
 }
 
-// // ======================================================================================================
+// ======================================================================================================
 
 function sendEmailPDF() {
   if(delayedRun(20)){       //Set delay time in seconds.
@@ -152,7 +152,7 @@ function sendEmailPDF() {
     return;}
 }
 
-// // =====================================================================================================
+// =====================================================================================================
 
 function delayedRun(seconds){
   var cache = CacheService.getDocumentCache();
